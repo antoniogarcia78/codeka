@@ -1,0 +1,40 @@
+This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+	
+	Autor: Pedro Obregón Mejías
+	
+	Aplicación: CodeKa
+		
+	Versión: 1.0
+	
+
+
+
+
+PROCESO DE INSTALACIÓN
+======================
+
+1º. Comprobar que en la máquina donde se va a proceder la instalación tiene instalado PHP y MySQL.
+
+2º. Comprobar que la/s máquina/s cliente/s disponen de un navegador web y de un programa lector de documentos pdf.
+
+3º. Copiar la carpeta de codeka en el directorio de publicación de la máquina.
+
+4º. Conceder permisos de lectura y escritura oportunos a la carpeta de codeka, pera las interacciones que tenga que realizar el programa.
+
+5º. Cargar la base de datos (basededatos.sql) en el MySQL instalado en el sistema. La carga se puede instalar a través de la consola o bien
+    
+    utilizando un front como puede ser el phpmyadmin.
+
+6º. Editar el archivo config.php para indicarle a la aplicación los parámetros de instalación.
